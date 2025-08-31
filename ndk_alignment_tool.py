@@ -13,7 +13,7 @@ from tkinter import ttk, filedialog, messagebox
 class NDKAlignmentTool:
     def __init__(self, root):
         self.root = root
-        self.root.title("SoPageAligner")
+        self.root.title("SoPageAligner v1.0.1")
         self.root.geometry("800x600")
         self.root.minsize(700, 500)
         
