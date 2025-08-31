@@ -1,4 +1,4 @@
-# SoPageAligner
+# SoPageAligner v1.0.1
 
 A Python GUI tool to align `.so` files for multiple Android ABIs using the NDK's `llvm-objcopy`.  
 Automatically fixes the **Android Studio 16 KB page size issue** for native libraries.
@@ -11,6 +11,10 @@ When building native libraries in Android Studio, `.so` files are often generate
 This can cause runtime crashes or unexpected behavior on some devices or architectures.  
 
 **SoPageAligner** automatically aligns `.so` files to the correct page size for each ABI, fixing this problem.
+
+Changelog:
+
+- v1.0.1: Updated build with improved PyInstaller settings (no code changes).
 
 ## Features
 
