@@ -7,8 +7,7 @@ Automatically fixes the **Android Studio 16 KB page size issue** for native li
 
 ## Background
 
-When building native libraries in Android Studio, `.so` files are often generated with a **16 KB page size**.  
-This can cause runtime crashes or unexpected behavior on some devices or architectures.  
+When building native libraries in Android Studio, `.so` files are often generated with a **16 KB page size**. 
 
 **SoPageAligner** automatically aligns `.so` files to the correct page size for each ABI, fixing this problem.
 
@@ -31,5 +30,5 @@ This can cause runtime crashes or unexpected behavior on some devices or archite
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/SoPageAligner.git
+git clone https://github.com/fzer0x/SoPageAligner.git
 cd SoPageAligner
