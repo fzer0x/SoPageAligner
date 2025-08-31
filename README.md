@@ -1,4 +1,4 @@
-# SoPageAligner
+# SoPageAligner v1.0.1
 
 Automatically fixes the **Android Studio 4KB / 16 KB page size issue** for native libraries.
 
@@ -9,6 +9,10 @@ Automatically fixes the **Android Studio 4KB / 16 KB page size issue** for nat
 When building native libraries in Android Studio, `.so` files are often generated with a **4 KB page size**. 
 
 **SoPageAligner** automatically aligns `.so` files to the correct 16KB page size for each ABI, fixing this problem.
+
+Changelog:
+
+- v1.0.1: Updated build with improved PyInstaller settings (no code changes)
 
 ## Features
 
