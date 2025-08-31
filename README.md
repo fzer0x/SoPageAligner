@@ -14,10 +14,6 @@ Changelog:
 
 - v1.0.1: Updated build with improved PyInstaller settings (no code changes)
 
-Changelog:
-
-- v1.0.1: Updated build with improved PyInstaller settings (no code changes).
-
 ## Features
 
 - Auto-detect Android NDK installation
